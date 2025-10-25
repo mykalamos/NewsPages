@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NewsPages — home" />
+    <title>NewsPages</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Scripts -->
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="/" class="brand">NewsPages</a>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/sections.html">Sections</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container" role="main">
+      <!-- Replace with dynamic content -->
+      <article>
+        <h1>Welcome to NewsPages</h1>
+        <p>Start adding stories, sections, and components here.</p>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small
+          >&copy; <span id="year"></span> NewsPages. All rights reserved.</small
+        >
+      </div>
+    </footer>
+
+    <script>
+      // Minimal runtime helpers
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
